@@ -1,0 +1,71 @@
+body {  
+  margin: 0 240px 0 200px;
+}
+
+a, body {
+    color: #32323d;
+}
+
+.header {
+  margin-top: 17px;
+  height: 50px;
+  background-color: #cfe8ef26;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.top-bar-inner {
+    display: flex;
+}
+
+.menu-bar {
+    top: 70px;
+    left: 0px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+ul li {
+    text-transform: uppercase;
+    margin-right: 15px;
+}
+
+.z-logo {
+    background-image: url('https://static-zmp3.zadn.vn/skins/zmp3-v5.2/images/logo-mp-3.svg');
+    background-repeat: no-repeat;
+    display: block;
+    width: 100px;
+    height: 32px;
+    background-size: cover;
+    font-size: 0px;
+    margin-left: 18px;
+    margin-right: 25px;
+}
+
+.user-profile {
+  margin-top: -2px;
+  margin-left: 70px;
+  display: flex;
+}
+
+.fa-user-circle {
+  color: #cad0dc;
+  margin-right: 5px;
+}
+
+.chevron {
+  color: #62666d;
+  padding-top: 10px;
+}
+
+.recent-listen {
+  margin-top: 20px;
+}
+.recent-listen .box-title {
+  font-size: 24px;
+  font-weight: 700;
+}
