@@ -1,3 +1,4 @@
+/*Nav*/
 body {  
   margin: 0 240px 0 200px;
   font-family: 'Roboto', sans-serif;
@@ -59,12 +60,59 @@ a:hover {
 .fa-user-circle {
   color: #cad0dc;
   margin-right: 5px;
+  font-size: 40px;
 }
 
 .chevron {
   color: #62666d;
   padding-top: 10px;
 }
+/*Login Footer */
+.login-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/image/banner.png");
+  border-radius: 4px;
+  padding: 15px 0;
+  margin: 30px 5px;
+}
+
+.login-footer .z-logo {
+  background-image: url("https://static-zmp3.zadn.vn/skins/zmp3-v5.2/images/logo-mp-3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+}
+
+.login-footer .content {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 700px;
+  margin: 0 113px 0 22px;
+}
+
+.login-footer .login-button {
+  background-color: #fdd100;
+  padding: 4px 12px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 4%;
+  text-transform: uppercase;  
+  display: flex;
+  align-items: center;
+  transition: all 0.2s;
+}
+
+.login-button:hover {
+  color: #6e55b4;
+  background-color: #fcfcfc;
+  border-color: #fcfcfc;
+}
+
+/* Recent Listen*/
 .recent-listen {
   margin-top: 20px;
 }
