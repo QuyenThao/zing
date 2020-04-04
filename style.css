@@ -76,6 +76,7 @@ a:hover {
   border-radius: 4px;
   padding: 15px 0;
   margin: 30px 5px;
+  font-weight: 700;
 }
 
 .login-footer .z-logo {
@@ -89,7 +90,6 @@ a:hover {
 .login-footer .content {
   color: #fff;
   font-size: 17px;
-  font-weight: 700px;
   margin: 0 113px 0 22px;
 }
 
@@ -97,7 +97,6 @@ a:hover {
   background-color: #fdd100;
   padding: 4px 12px;
   font-size: 15px;
-  font-weight: 700;
   color: #fff;
   border-radius: 4%;
   text-transform: uppercase;  
@@ -290,4 +289,29 @@ a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 2%;
+}
+/*Zing chart*/
+.zingchart-week {
+  margin: 20px 10px;
+}
+.zingchart-week .row {
+  display: flex;
+  flex-direction: row;
+}
+.zchart-card {
+	margin: 0 25px 10px 0;
+	padding: 0 10px;
+}
+.zchart-card a {
+	display: inline-block;
+	overflow: hidden;
+}
+.zchart-card img{
+	width: 242px;
+	height: 60px;
+	border-radius: 2px;
+	transition: transform 0.5s linear;
+}
+.zchart-card:hover img{
+	transform: scale(1.1);
 }
