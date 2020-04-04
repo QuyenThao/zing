@@ -315,3 +315,75 @@ a:hover {
 .zchart-card:hover img{
 	transform: scale(1.1);
 }
+/*zing choice artist*/
+.col-album-circle {
+  display: flex;
+  background-image: url("https://static-zmp3.zadn.vn/skins/zmp3-v5.2/images/spotlight-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 4%;
+  height: 150px;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+	margin-right: 10px;
+}
+.z-choice-img a {
+  border-radius: 50%;
+	display: inline-block;
+	overflow: hidden;
+  margin: 0 10px;
+}
+.z-choice-img a img{
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+	transition: transform 0.5s ease-in-out;
+}
+.z-choice-card-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  margin-right: 20px;
+  flex-grow: 1;
+}
+.spotlight-bag {
+  background: rgb(229, 0, 249);
+  background: linear-gradient(135deg, rgba(229, 0, 249, 1) 0%, rgba(226, 16, 211, 1) 40%, rgba(89, 31, 205, 1) 100%);
+  width: auto;
+  height: 16px;
+  border-radius: 10%;
+  display: flex;
+}
+
+.fa-star {
+  font-size: 10px;
+  align-items: center;
+  margin: 2px 2px 2px 4px;
+  color: #fff;
+}
+
+.spotlight-bag span {
+  font-size: 10px;
+  align-items: center;
+  padding: 1px 5px 0 0;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.z-choice-artist a {
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 700;
+  color: #32323d;
+}
+
+.col-album-circle:hover .z-choice-img a img {
+  transform: scale(1.1);
+}
+.active .zingchoice, .carousel-item{
+	display: flex;
+  flex-direction: row;
+}
