@@ -34,7 +34,6 @@ ul {
 ul li {
     text-transform: uppercase;
     margin-right: 15px;
-    display: block;
 }
 a:hover {
   color: #845ce9;
