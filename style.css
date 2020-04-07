@@ -1,6 +1,6 @@
 /*Nav*/
 body {  
-  margin: 0 240px 0 200px;
+  margin: 0 240px 0 240px;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -10,7 +10,6 @@ a, body {
 
 .header {
   padding-top: 15px;
-  height: 65px;
   background-color: #ffffff;
   border-bottom: 1px solid #e6e6e6;
   position: fixed;
@@ -39,20 +38,27 @@ ul {
 ul li {
     text-transform: uppercase;
     margin-right: 15px;
-		position: relative;
+    position: relative;
 }
 
 ul li a.nav-link {
 	display: block;
+  padding-bottom: 15px;
+}
+
+ul li a.nav-link:hover {
+  border-bottom: 2px solid #65509e;
 }
 
 table tr {
 	text-transform: capitalize;
 }
+
 a:hover {
-  color: #845ce9;
+  color: #6e55b4;
   text-decoration: none;
 }
+
 .z-logo {
     background-image: url('https://static-zmp3.zadn.vn/skins/zmp3-v5.2/images/logo-mp-3.svg');
     background-repeat: no-repeat;
@@ -67,7 +73,7 @@ a:hover {
 
 .user-profile {
   margin-top: -2px;
-  margin-left: 70px;
+  margin-left: 50px;
   display: flex;
 }
 
@@ -87,22 +93,29 @@ ul li table {
 	position: absolute;
 	background-color: #fff;
   border-collapse: collapse;
+  padding: 15px 0px;
 }
+
 ul li:hover table {
 	display: block;
   transition: transform all .3s;
 }
+
 ul li table tr {
 	text-align: left;
 }
+
 ul li table tr th {
 	text-transform: uppercase;
 	white-space: nowrap;
-	padding: 12px 15px;
+	padding: 12px 30px;
 }
+
 ul li table tr td {
-	padding: 12px 15px;
+  padding: 12px 15px;
+  font-weight: 400;
 }
+
 ul li table tr td a{
 	padding: 5px;
 	white-space: nowrap;
@@ -111,12 +124,13 @@ ul li table tr td a{
 
 ul li table tr td:hover {
 	color: #65509e;
-	background-color: #cdc6e2;
+	background-color: #d7d7db;
 }
 
 .carousel {
   margin-top: 60px;
 }
+
 /*Login Footer */
 .login-footer {
   display: flex;
@@ -188,6 +202,7 @@ ul li table tr td:hover {
   background-size: cover;
   border-radius: 2%;
 }
+
 .box-album .card-overlay {
   background-color: #000000ba;
   height: 100%;
@@ -202,101 +217,130 @@ ul li table tr td:hover {
 .box-album:hover .card-overlay {
   opacity: 1;
 }
+
 .far {
   font-size: 50px;
   color: #ffffffe6;
 }
+
 .box-album .card-overlay .fa-play-circle {
   transform: scale(0.8);
   transition: all 0.5s;
 }
+
 .box-album:hover .card-overlay .fa-play-circle {
   transform: scale(1);
 }
+
 .boxcard-info {
   margin-top: 10px;
   margin-bottom: 3px;
 }
+
 .boxcard-info {
   font-weight: 500;
 }
+
 .box-album {
   margin: 0 40px 0 0;
   width: 190px;
 }
+
 .boxcard-info .box-album-title {
   text-decoration: none;
 }
+
 .card-img-1 {
   background-image: url("https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/7/8/0/7/7807ecce36bc39abe4d7fc6a9f948234.jpg");
 }
+
 .card-img-2 {
   background-image: url("https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/5/8/f/a/58fa09c76ee4ed9fd2e00b2d2ac3f8ac.jpg");
 }
+
 .card-img-3 {
   background-image: url("https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/7/e/b/d/7ebdb5a71ea69e0d94c61d8cbdf94029.jpg");
 }
+
 .card-img-4 {
   background-image: url("https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/e/0/c/c/e0cc057592f82b208a3f7cf80285e7d3.jpg");
 }
+
 .card-img-5 {
   background-image: url("https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/2/8/e/c/28ec8212ea1ade2012f6e8e03df36635.jpg");
 }
+
 .card-img-6 {
   background-image: url("https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/b/b/4/d/bb4d05a07701730462847acabc746bc8.jpg");
 }
+
 .card-img-7 {
   background-image: url("https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/b/6/d/3/b6d3f9b17c9a3e7a0ce1ff9edd972b76.jpg");
 }
+
 .card-img-8 {
   background-image: url("https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/9/c/c/b/9ccbda96115f168b071d7d3faee01121.jpg");
 }
+
 .card-img-9 {
   background-image: url("https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/c/f/3/0/cf307073689e62be353c5af3566bbeff.jpg");
 }
+
 .card-img-10 {
   background-image: url("https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/a/e/4/4/ae44adda0432b9dd3dcc113d962b4d9b.jpg");
 }
+
 .card-img-11 {
   background-image: url("https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/c/5/1/7/c517503186e75955a18de7c5c0635992.jpg");
 }
+
 .card-img-12 {
   background-image: url("https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/7/6/3/5/7635d3675861a2f9fd1b40565a6a7cc3.jpg");
 }
+
 .card-img-13 {
   background-image: url("https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/5/3/6/8/53683d1ee75daec1c925085c28afe8d1.jpg");
 }
+
 .card-img-14 {
   background-image: url("https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/covers/f/0/f0f705c66f24235a629b257608058d18_1519804914.jpg");
 }
+
 .card-img-15 {
   background-image: url("https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/a/5/b/1/a5b1f6b46679bf8565bd8fdfa5bddf91.jpg");
 }
+
 /*Zing chart*/
 .zingchart-week {
   margin: 20px 10px;
 }
+
 .zingchart-week .row {
   display: flex;
   flex-direction: row;
 }
+
 .zchart-card {
-	margin: 0 25px 10px 0;
+	margin: 0 16px 10px 0;
 	padding: 0 10px;
 }
+
 .zchart-card a {
 	display: inline-block;
 	overflow: hidden;
 }
+
 .zchart-card img{
 	width: 242px;
 	height: 60px;
 	border-radius: 2px;
 	transition: transform 0.5s linear;
 }
+
 .zchart-card:hover img{
 	transform: scale(1.1);
 }
+
 /*zing choice artist*/
 .col-album-circle {
   display: flex;
@@ -310,18 +354,21 @@ ul li table tr td:hover {
   align-items: center;
 	margin-right: 10px;
 }
+
 .z-choice-img a {
   border-radius: 50%;
 	display: inline-block;
 	overflow: hidden;
   margin: 0 10px;
 }
+
 .z-choice-img a img{
   border-radius: 50%;
   height: 120px;
   width: 120px;
 	transition: transform 0.5s ease-in-out;
 }
+
 .z-choice-card-info {
   display: flex;
   flex-direction: column;
@@ -330,6 +377,7 @@ ul li table tr td:hover {
   margin-right: 20px;
   flex-grow: 1;
 }
+
 .spotlight-bag {
   background: rgb(229, 0, 249);
   background: linear-gradient(135deg, rgba(229, 0, 249, 1) 0%, rgba(226, 16, 211, 1) 40%, rgba(89, 31, 205, 1) 100%);
@@ -365,23 +413,171 @@ ul li table tr td:hover {
 .col-album-circle:hover .z-choice-img a img {
   transform: scale(1.1);
 }
+
 .zingchoice {
 	display: flex;
   margin-bottom: 30px;
 }
+
 /*Top 100 best song*/
 .top100-img-1 {
   background-image: url("https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/f/e/1/b/fe1b806c9dd1bae58f041a4512dd956a.jpg");
 }
+
 .top100-img-2 {
   background-image: url("https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/6/f/3/6/6f3688c38de70cd69dd2919d6a7ad318.jpg");
 }
+
 .top100-img-3 {
   background-image: url("https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/d/b/0/8/db08e3dfca2b3b24dc84eeda62418dff.jpg");
 }
+
 .top100-img-4 {
   background-image: url("https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/f/2/6/4/f26467e87075a96bf974a8c49450bad5.jpg");
 }
+
 .top100-img-5 {
   background-image: url("https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/4/1/1/9/4119c57ad5983a1cd632f654c3c6c233.jpg");
+}
+
+.top-100 {
+  margin-bottom: 30px;
+}
+
+/*Top new song*/
+.top-new-song {
+	display: flex;
+}
+
+
+.card-newsong {
+  display: flex;
+	padding: 10px;
+	margin-right: 20px;
+	overflow: hidden;
+	width: 349px;
+  box-shadow: 0px 0px 20px 0px #82d7e047; 
+}
+
+.card-newsong-img {
+  height: 120px;
+  width: 120px;
+  border-radius: 4%;
+  background-image: url("https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/f/1/c/0/f1c06ed70e6be6be9572d99daf5ecc53.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-newsong-img-1 {
+  background-image: url("https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/f/1/c/0/f1c06ed70e6be6be9572d99daf5ecc53.jpg");	
+}
+
+.card-newsong-img-2 {
+  background-image: url("https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/5/9/c/f/59cffed80f457f20cd3ea75b1c303c36.jpg");	
+}
+
+.card-newsong-img-3 {
+  background-image: url("https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/7/1/0/1/71016e579c3ffbc4e81691b3ee99d443.jpg");	
+}
+
+.card-newsong-img-4 {
+  background-image: url("https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/b/a/a/e/baae334f1b3939820bb06702ef9614d7.jpg");	
+}
+
+.card-newsong-img-5 {
+  background-image: url("https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/1/b/c/9/1bc972a51247ac4a1c899f27bdfabf17.jpg");	
+}
+
+.card-newsong-img-6 {
+  background-image: url("https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/d/6/8/1/d68152563b8d3bce473b3d515a0219df.jpg");	
+}
+
+.card-newsong-img-7 {
+  background-image: url("https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/3/7/d/0/37d06f31946caaedac6d56f20f695206.jpg");	
+}
+
+.card-newsong-img-8 {
+  background-image: url("https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/1/f/4/a/1f4ab0b217bfdc03f61e3e3ded51afca.jpg");	
+}
+
+.card-newsong-img-9 {
+  background-image: url("https://photo-resize-zmp3.zadn.vn/w94_r1x1_jpeg/cover/5/7/3/5/5735df54dd239cd283f041a42480550a.jpg");	
+}
+
+.card-newsong-img .card-newsong-overlay {
+  background-color: #000000ba;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.card-newsong:hover .card-newsong-overlay {
+  opacity: 1;
+}
+
+.far {
+  font-size: 50px;
+  color: #ffffffe6;
+}
+
+.card-newsong .card-newsong-overlay .fa-play-circle {
+  transform: scale(0.8);
+  transition: all 0.5s;
+}
+
+.card-newsong:hover .card-newsong-overlay .fa-play-circle {
+  transform: scale(1);
+}
+
+.card-newsong-info {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.card-newsong-info a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  color: #32323d;
+}
+
+.card-newsong-info .newsong-title {
+  flex-grow: 0;
+}
+
+.card-newsong-info .newsong-artist a {
+  color: #888;
+  font-size: 14px;
+  font-weight: 400;
+  color: #a0a0a0;
+  flex-grow: 0;
+}
+
+.m-newsong-info {
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-end;  
+}
+
+.m-newsong-info .order {
+  font-size: 50px;
+  font-weight: 900px;
+  text-shadow: 2px 2px 2px rgba(102, 69, 193, 0.5);
+  color: #fff;
+  flex-grow: 1;
+}
+
+.m-newsong-info .release-day {
+  color: #dbdbdb;
+  font-size: 12px;
+}
+#carouselExampleSlidesOnly {
+  margin-top: 0;
 }
