@@ -9,10 +9,15 @@ a, body {
 }
 
 .header {
-  margin-top: 15px;
-  height: 50px;
-  background-color: #cfe8ef26;
+  padding-top: 15px;
+  height: 65px;
+  background-color: #ffffff;
   border-bottom: 1px solid #e6e6e6;
+  position: fixed;
+  height: 60px;
+  top: 0;
+  width: 100%;
+  z-index: 2;
 }
 
 .top-bar-inner {
@@ -34,6 +39,15 @@ ul {
 ul li {
     text-transform: uppercase;
     margin-right: 15px;
+		position: relative;
+}
+
+ul li a.nav-link {
+	display: block;
+}
+
+table tr {
+	text-transform: capitalize;
 }
 a:hover {
   color: #845ce9;
@@ -66,6 +80,42 @@ a:hover {
 .chevron {
   color: #62666d;
   padding-top: 10px;
+}
+
+ul li table {
+	display: none;
+	position: absolute;
+	background-color: #fff;
+  border-collapse: collapse;
+}
+ul li:hover table {
+	display: block;
+  transition: transform all .3s;
+}
+ul li table tr {
+	text-align: left;
+}
+ul li table tr th {
+	text-transform: uppercase;
+	white-space: nowrap;
+	padding: 12px 15px;
+}
+ul li table tr td {
+	padding: 12px 15px;
+}
+ul li table tr td a{
+	padding: 5px;
+	white-space: nowrap;
+	transition: transform all .3s;
+}
+
+ul li table tr td:hover {
+	color: #65509e;
+	background-color: #cdc6e2;
+}
+
+.carousel {
+  margin-top: 60px;
 }
 /*Login Footer */
 .login-footer {
@@ -315,9 +365,8 @@ a:hover {
 .col-album-circle:hover .z-choice-img a img {
   transform: scale(1.1);
 }
-.active .zingchoice {
+.zingchoice {
 	display: flex;
-  flex-direction: row;
   margin-bottom: 30px;
 }
 /*Top 100 best song*/
