@@ -881,3 +881,47 @@ ul li table tr td:hover {
 .cpop-img-5 {
   background-image: url("https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/4/2/6/f/426f70ed262e2bf0a7289216ec636559.jpg");
 }
+
+/*category*/
+.category {
+  margin-bottom: 30px;
+}
+
+.category-row {
+	padding: 0 10px;
+	margin-right: 10px;
+	display: flex;
+}
+.topic-cards {
+	height: 107px;
+  width: 190px;
+	margin-right: 40px;
+}
+.topic-cards img{
+	position: absolute;
+	height: 107px;
+  width: 190px;
+	border-radius: 4px;
+}
+.img .overlay {
+	position: absolute;
+	height: 107px;
+  width: 190px ;
+	background: linear-gradient(179.59deg, rgba(0, 0, 0, 0) 49.64%, rgba(0, 0, 0, 0.78) 99.32%);
+	border-radius: 4px;
+}
+.img span {
+	position: absolute;
+	color: #fff;
+	width: 190px;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 28px;
+	text-align: center;
+	padding-top: 60px;
+	transition: all 0.5s;
+}
+
+.topic-cards:hover .img span {
+	padding-top: 40px;
+}
