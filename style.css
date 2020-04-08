@@ -882,8 +882,8 @@ ul li table tr td:hover {
   background-image: url("https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/4/2/6/f/426f70ed262e2bf0a7289216ec636559.jpg");
 }
 
-/*category*/
-.category {
+/*category & activity-mood*/
+.category, .activity-mood {
   margin-bottom: 30px;
 }
 
