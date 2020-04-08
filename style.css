@@ -409,7 +409,7 @@ ul li table tr td:hover {
 
 .z-choice-artist a {
   text-decoration: none;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 700;
   color: #32323d;
 }
@@ -696,7 +696,7 @@ ul li table tr td:hover {
   opacity: 1;
 }
 
-.fas {
+.z-card-overlay .fa-play {
   font-size: 15px;
   color: #ffffffe6;
 }
@@ -751,6 +751,9 @@ ul li table tr td:hover {
   opacity: 1;
 }
 /*Album Hot*/
+.album-hot {
+  margin-bottom: 30px;
+}
 .box-album-artist {
   color: #a0a0a0;
   font-weight: 400;
@@ -777,4 +780,29 @@ ul li table tr td:hover {
 
 .album-hot-img-5 {
   background-image: url("https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/a/e/8/9/ae893014b2a1693036dd91d0b816ba4e.jpg");
+}
+
+/*featured radio*/
+.featured-radio {
+  margin-bottom: 30px;
+}
+
+.featured-radio-img-1 {
+  background-image: url("https://photo-playlist-zmp3.zadn.vn/radio?src=HavwqN7EzbiAHZUTDj-sJ40DDvusWhPFLWjyd6lGi1jJ0odEFeooI0O2APrdZR5B2m9xpcAAiL1H4NZ29DYY5mL7Bfr-xUaDuvQc1XaKAFk3K-WZ-dpMLHDsmqOflI0rqp-i-0&size=thumb/240_240");
+}
+
+.featured-radio-img-2 {
+  background-image: url("https://photo-playlist-zmp3.zadn.vn/radio?src=HavwqN7EzbiAHZUTDj-s6q02DyqstRPBML0iosQ3j4W63IgTRTNY505RU91irkL430vzp3RSi585Htd0S8wZ5L4HBvyggU10KmCWc2ghvkx38MW8Ut57c6poAeWYVG&size=thumb/240_240");
+}
+
+.featured-radio-img-3 {
+  background-image: url("https://photo-playlist-zmp3.zadn.vn/radio?src=HavwqN7EzbiAHZUTDj-sJ41NDyisZxOQ35ChdpEBv4mELNEOOOo_7WbMTPSoZUmMMGTsm6RRxLvLG2JC88d-6G4MSfDwjhJWa3uw4mfi-iHpmZbMVG&size=thumb/240_240");
+}
+
+.featured-radio-img-4 {
+  background-image: url("https://photo-playlist-zmp3.zadn.vn/radio?src=HavwqN7EzbiAHZUTDj-sJ40DDvasWhP8LWnyoJlLiKjJ2ohDEe7cILOCVfizXUGOLrTwdsY5v05R7YsJBjVtHWz8UynqwnFTGo3-ZA1eS6KwAQltVG&size=thumb/240_240");
+}
+
+.featured-radio-img-5 {
+  background-image: url("https://photo-playlist-zmp3.zadn.vn/radio?src=HavwqN7EzbiAHZUTDj-s7a0CDvmsqhOVLmijcJs2inzSN2NCPexeILrITS0psED13rTxms6Av5rI4ItF9zZt6WP7Uv1zxpIRZIJKJ3LqszmWNDLCEDaJtdq&size=thumb/240_240");
 }
