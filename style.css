@@ -831,3 +831,53 @@ ul li table tr td:hover {
 .us-uk-img-5 {
   background-image: url("https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/f/c/0/9/fc09fbbb3cd5e2c43ffc65ba383ef4ce.jpg");
 }
+
+/*Kpop Music*/
+.kpop {
+  margin-bottom: 30px;
+}
+
+.kpop-img-1 {
+  background-image: url("https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/4/9/a/0/49a03953ffe094fbdc090b47f9659062.jpg");
+}
+
+.kpop-img-2 {
+  background-image: url("https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/1/d/2/6/1d269d96ce36ba57414da321b845f16e.jpg");
+}
+
+.kpop-img-3 {
+  background-image: url("https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/4/c/8/c/4c8ca48f0658b7c8627c80245f2f9c4b.jpg");
+}
+
+.kpop-img-4 {
+  background-image: url("https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/9/b/6/8/9b68b50ccf809757029ed7a9f29c7cc4.jpg");
+}
+
+.kpop-img-5 {
+  background-image: url("https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/1/1/8/3/11835ec64859d3d616519d2c7159ad8c.jpg");
+}
+
+/*C-pop*/
+.cpop {
+  margin-bottom: 30px;
+}
+
+.cpop-img-1 {
+  background-image: url("https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/0/a/0/7/0a07188481a1d3b5a8b151f8a3294835.jpg");
+}
+
+.cpop-img-2 {
+  background-image: url("https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/7/4/c/2/74c242740127c09ee89df038a56f5fa1.jpg");
+}
+
+.cpop-img-3 {
+  background-image: url("https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/e/0/4/0/e0409f3e0ad757e9542695a29a0c2d60.jpg");
+}
+
+.cpop-img-4 {
+  background-image: url("https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/e/d/5/2/ed523c102dfd4bf99930ceecd4814c75.jpg");
+}
+
+.cpop-img-5 {
+  background-image: url("https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/4/2/6/f/426f70ed262e2bf0a7289216ec636559.jpg");
+}
