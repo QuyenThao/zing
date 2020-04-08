@@ -750,3 +750,31 @@ ul li table tr td:hover {
 .z-card:hover .option {
   opacity: 1;
 }
+/*Album Hot*/
+.box-album-artist {
+  color: #a0a0a0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.3;
+  margin: 0 2px 0 0;
+}
+
+.album-hot-img-1 {
+  background-image: url("https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/3/7/d/0/37d06f31946caaedac6d56f20f695206.jpg");
+}
+
+.album-hot-img-2 {
+  background-image: url("https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/d/4/f/f/d4ff9f628e830a1ed46ab535abddbbda.jpg");
+}
+
+.album-hot-img-3 {
+  background-image: url("https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/8/7/d/e/87dec4a5bd5551cc5ac12279a986ea65.jpg");
+}
+
+.album-hot-img-4 {
+  background-image: url("https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/f/f/b/2/ffb250a9b008193fc4b06c292e9f4486.jpg");
+}
+
+.album-hot-img-5 {
+  background-image: url("https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/a/e/8/9/ae893014b2a1693036dd91d0b816ba4e.jpg");
+}
