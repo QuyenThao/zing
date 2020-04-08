@@ -806,3 +806,28 @@ ul li table tr td:hover {
 .featured-radio-img-5 {
   background-image: url("https://photo-playlist-zmp3.zadn.vn/radio?src=HavwqN7EzbiAHZUTDj-s7a0CDvmsqhOVLmijcJs2inzSN2NCPexeILrITS0psED13rTxms6Av5rI4ItF9zZt6WP7Uv1zxpIRZIJKJ3LqszmWNDLCEDaJtdq&size=thumb/240_240");
 }
+
+/*US-UK Music*/
+.us-uk {
+  margin-bottom: 30px;
+}
+
+.us-uk-img-1 {
+  background-image: url("https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/7/d/5/3/7d53d5a113441f171c6cadefb03b7525.jpg");
+}
+
+.us-uk-img-2 {
+  background-image: url("https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/f/5/4/9/f549dd1ea812f87233038b5be9f83430.jpg");
+}
+
+.us-uk-img-3 {
+  background-image: url("https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/f/8/f/d/f8fdaec12e02f671f7b56113c11b462f.jpg");
+}
+
+.us-uk-img-4 {
+  background-image: url("https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/1/6/c/f/16cfc47d9d5c00b082dd6a6173135a3e.jpg");
+}
+
+.us-uk-img-5 {
+  background-image: url("https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/f/c/0/9/fc09fbbb3cd5e2c43ffc65ba383ef4ce.jpg");
+}
