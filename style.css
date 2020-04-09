@@ -1078,6 +1078,8 @@ ul li table tr td:hover {
 /*Mix Zing Choice*/
 .mix-zing-choice {
   margin-bottom: 30px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgba(227,227,227,.6);
 }
 
 .mix-zing {
@@ -1224,4 +1226,20 @@ ul li table tr td:hover {
 
 .z-mix-list-card:hover .extention {
   opacity: 1;
+}
+
+/*Footer*/
+.footer {
+  margin: 0 auto 30px;
+  position: relative;
+}
+
+.footer-items a {
+  color: #888;  
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+.footer-items a:hover {
+  color: #65509e;
 }
