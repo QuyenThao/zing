@@ -925,3 +925,152 @@ ul li table tr td:hover {
 .topic-cards:hover .img span {
 	padding-top: 40px;
 }
+
+/*MV hot*/
+.top-5-mv-hot {
+  margin-bottom: 30px;
+}
+
+.mv-hot {
+  display: flex;
+}
+.top-mv-hot {
+    width: 600px;
+    height: 338px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.mv-hot-img {
+    position: absolute;
+    width: 600px;
+    height: 338px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.mv-hot-img img {
+    border-radius: 2px;
+    transition: transform 0.5s linear;
+}
+
+.mv-hot-info {
+  margin: -60px 25px 15px 20px;
+  position: relative;
+  z-index: 3;
+}
+
+.mv-hot-info .mv-hot-title a{
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 5px;
+    color: #fff;
+}
+
+.mv-hot-info .mv-hot-artist {
+    padding-bottom: 5px;
+}
+
+.mv-hot-info .mv-hot-artist a{
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.7;
+    color: #fcfcfc;
+}
+
+.mv-hot-img .opacity {
+    top: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0),rgba(0,0,0,.5));
+    z-index: 2;
+}
+
+.mv-hot-overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 600px;
+    height: 338px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.top-mv-hot:hover .mv-hot-overlay {
+    opacity: 1;
+}
+
+.top-mv-hot:hover .mv-hot-info {
+    opacity: 0;
+}
+
+.top-mv-hot:hover .mv-hot-img img {
+    transform: scale(1.05);	
+}
+
+.mv-hot-card {
+	width: 190px;
+	display: flex;
+	flex-direction: column;
+}
+.mv-hot-card-img {
+	position: absolute;
+	width: 190px;
+	height: 109px;	
+}
+
+.mv-hot-image {
+	position: absolute;
+	width: 190px;
+	height: 109px;
+	overflow: hidden;
+	border-radius: 2px;
+}
+
+.mv-hot-image img{
+	width: 190px;
+	height: 109px;
+	transition: transform 0.5s linear;
+}
+.mv-hot-card-overlay {
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.6);
+	width: 190px;
+	height: 109px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	border-radius: 2px;
+	opacity: 0;
+}
+
+.mv-hot-card-info {
+	margin-top: 115px;
+}
+
+.mv-hot-card-info .mv-hot-card-title {
+  font-weight: 500;
+}
+
+.mv-hot-card-info .mv-hot-card-artist a {
+	color: #a0a0a0;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.mv-hot-card:hover .mv-hot-image img{	
+	transform: scale(1.05);
+}
+
+.mv-hot-card:hover .mv-hot-card-overlay {
+	opacity: 1;
+}
+
+.mv-hot-card {
+  margin: 0px 20px 10px;
+}
+
