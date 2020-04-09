@@ -1,7 +1,8 @@
 /*Nav*/
 body {  
   margin: 0 240px 0 240px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;  
+  font-size: 14px;
 }
 
 a, body {
@@ -1074,3 +1075,153 @@ ul li table tr td:hover {
   margin: 0px 20px 10px;
 }
 
+/*Mix Zing Choice*/
+.mix-zing-choice {
+  margin-bottom: 30px;
+}
+
+.mix-zing {
+  padding: 20px;
+  margin-bottom: 15px;
+	display: flex;
+	flex-direction: row;
+  box-shadow: 0px 0px 20px 0px #82d7e047;
+}
+
+.mix-zing-image {
+	position: absolute;
+	width: 170px;
+	height: 170px;
+	border-radius: 2px;
+	overflow: hidden;
+}
+
+.mix-zing-img img {
+	position: absolute;
+	width: 170px;
+	height: 170px;
+	transition: transform 0.5s linear;
+}
+
+.mix-zing-overlay {
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.6);
+	width: 100%;
+	height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	opacity: 0;
+}
+
+.mix-zing-image:hover .mix-zing-img img {
+	transform: scale(1.05);
+}
+
+.mix-zing-image:hover .mix-zing-overlay {
+	opacity: 1;
+}
+
+.mix-zing-info {
+    width: 200px;
+    padding: 0 17px 0 15px;
+    float: left;
+    min-height: 170px;
+    position: relative;
+    left: 180px;
+}
+
+.mix-zing-info .mix-zing-title {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.mix-zing-info .mix-zing-modified-time i {
+    font-size: 10px;
+    font-style: italic;
+    color: #949494;
+    margin-bottom: 5px;
+    position: absolute;
+    bottom: 0;
+}
+
+.mix-zing-list {
+  position: relative;
+  display: flex;
+  border-left: 1px solid rgba(227,227,227,.6);
+  left: 180px;
+}
+
+.mix-zing-list-1 ul,
+.mix-zing-list-2 ul {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+.mix-zing-list-1, .mix-zing-list-2{
+  padding-left: 9px;
+}
+
+.z-mix-list-card {
+  display: flex;
+  position: relative;
+  width: 260px;
+  height: 30px;
+  transition: all .3s;
+}
+
+.z-mix-list-card .order {
+  position: relative;
+  left: 0;
+  margin-right: 25px;
+}
+
+.z-mix-list-card .order span {
+  position: absolute;
+  left: 0;
+}
+
+.z-mix-list-card .order i {
+  font-size: 14px;
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  color: #65509e;
+  transition: all .1s;
+}
+
+.z-mix-list-card .z-mix-list-info a {
+  font-size: 12px;
+  font-weight: 500;
+  text-overflow: ellipsis;
+  text-transform: capitalize;
+}
+
+.z-mix-list-card .extention {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  margin-right: 10px;
+  display: flex;    
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: all .3s;
+}
+
+.z-mix-list-card:hover .order i {
+  opacity: 1;
+}
+
+.z-mix-list-card:hover .order span {
+  opacity: 0;
+}
+
+.z-mix-list-card:hover {
+  background-color: #f7f7f7;
+}
+
+.z-mix-list-card:hover .extention {
+  opacity: 1;
+}
