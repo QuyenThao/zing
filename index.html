@@ -10,11 +10,12 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="./style.css" media="screen">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/ee849e51b4.js" crossorigin="anonymous"></script>
-<body>
+<body><!--
   <header class="header">
+    <input type="checkbox" id="check">
     <div class="top-bar">
       <div class="top-bar-inner">
         <a href="index.html" class="z-logo">Zing mp3</a>
@@ -157,7 +158,22 @@
         </div>
       </div>
     </div>
-  </header>
+  </header>-->
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check">
+        <i class="fas fa-bars" id="btn"></i>
+        <i class="fas fa-times" id="cancel"></i>
+      </label>
+      <a href="#"><img src="./image/logo.png" alt=""></a>
+      <ul>
+        <li><a href="#">#Zingchart</a></li>
+        <li><a href="#">Mới Phát Hành</a></li>
+        <li><a href="#">Top 100</a></li>
+        <li><a href="#">Chủ Đề</a></li>
+        <li><a href="#">Nhạc Cá Nhân</a></li>
+      </ul>
+    </nav>
     <main class="main-body">
       <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -245,7 +261,7 @@
                   <a href="#" class="box-album-title">Nhạc Folk Dành Cho Ngày Mới</a>
                 </div>
               </div>
-              <div class="box-album">
+              <div class="box-album special">
                 <div class="card-img card-img-5">
                   <div class="card-overlay">
                   <i class="far fa-play-circle"></i>
@@ -307,7 +323,7 @@
                   <a href="#" class="box-album-title">FA No Problem</a>
                 </div>
               </div>
-              <div class="box-album">
+              <div class="box-album special">
                 <div class="card-img card-img-10">
                   <div class="card-overlay">
                   <i class="far fa-play-circle"></i>
@@ -369,7 +385,7 @@
                   <a href="#" class="box-album-title">Morning Workout</a>
                 </div>
               </div>
-              <div class="box-album">
+              <div class="box-album special">
                 <div class="card-img card-img-15">
                   <div class="card-overlay">
                   <i class="far fa-play-circle"></i>
@@ -386,7 +402,7 @@
       </section>
       <section class="zingchart">
         <div class="zingchart-week">
-          <div class="row">
+          <div class="row row-zingchart">
             <img src="/image/zingchart.png" alt="" class="zingchart-img">
           </div>
           <div class="row">
@@ -450,8 +466,8 @@
                   </div>
                 </div>
               </a>
-              <a href="#" class="z-choice">
-                <div class="col-album-circle">
+              <a href="#" class="z-choice special">
+                <div class="col-album-circle special">
                   <div class="z-choice-img">
                     <a href="#"><img src="https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/avatars/6/d/d/a/6dda1e6d7690c4c43ed97d6150619495.jpg" alt=""></a>
                   </div>
@@ -466,8 +482,8 @@
                   </div>
                 </div>
               </a>
-              <a href="#" class="z-choice">
-                <div class="col-album-circle">
+              <a href="#" class="z-choice special">
+                <div class="col-album-circle special">
                   <div class="z-choice-img">
                     <a href="#"><img src="https://avatar-nct.nixcdn.com/singer/avatar/2020/03/31/0/d/a/0/1585627562314.jpg" alt=""></a>
                   </div>
@@ -518,8 +534,8 @@
                   </div>
                 </div>
               </a>
-              <a href="#" class="z-choice">
-                <div class="col-album-circle">
+              <a href="#" class="z-choice special">
+                <div class="col-album-circle special">
                   <div class="z-choice-img">
                     <a href="#"><img src="https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/avatars/e/1/1/2/e1120261421cfec7513423222b0ca94c.jpg" alt=""></a>
                   </div>
@@ -534,8 +550,8 @@
                   </div>
                 </div>
               </a>
-              <a href="#" class="z-choice">
-                <div class="col-album-circle">
+              <a href="#" class="z-choice special">
+                <div class="col-album-circle special">
                   <div class="z-choice-img">
                     <a href="#"><img src="https://avatar-nct.nixcdn.com/singer/avatar/2020/03/31/0/d/a/0/1585627714773.jpg" alt=""></a>
                   </div>
@@ -586,8 +602,8 @@
                   </div>
                 </div>
               </a>
-              <a href="#" class="z-choice">
-                <div class="col-album-circle">
+              <a href="#" class="z-choice special">
+                <div class="col-album-circle special">
                   <div class="z-choice-img">
                     <a href="#"><img src="https://avatar-nct.nixcdn.com/singer/avatar/2020/02/06/9/4/1/2/1580971397180.jpg" alt=""></a>
                   </div>
@@ -602,8 +618,8 @@
                   </div>
                 </div>
               </a>
-              <a href="#" class="z-choice">
-                <div class="col-album-circle">
+              <a href="#" class="z-choice special">
+                <div class="col-album-circle special">
                   <div class="z-choice-img">
                     <a href="#"><img src="https://avatar-nct.nixcdn.com/singer/avatar/2017/12/23/0/4/f/2/1514016314404.jpg" alt=""></a>
                   </div>
@@ -670,7 +686,7 @@
                     <a href="#" class="box-album-title">Top 100 Nhạc Cách Mạng Việt Nam</a>
                   </div>
                 </div>
-                <div class="box-album">
+                <div class="box-album special">
                   <div class="card-img top100-img-5">
                     <div class="card-overlay">
                     <i class="far fa-play-circle"></i>
@@ -732,7 +748,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="card-newsong">
+                    <div class="card-newsong special">
                       <div class="card-newsong-img card-newsong-img-3">
                         <div class="card-newsong-overlay">
                         <i class="far fa-play-circle"></i>
@@ -793,7 +809,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="card-newsong">
+                    <div class="card-newsong special">
                       <div class="card-newsong-img card-newsong-img-6">
                         <div class="card-newsong-overlay">
                         <i class="far fa-play-circle"></i>
@@ -854,7 +870,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="card-newsong">
+                    <div class="card-newsong special">
                       <div class="card-newsong-img card-newsong-img-9">
                         <div class="card-newsong-overlay">
                         <i class="far fa-play-circle"></i>
@@ -1268,7 +1284,7 @@
                   <a href="#" class="box-album-artist">V.O.X</a>
                 </div>
               </div>
-              <div class="box-album">
+              <div class="box-album special">
                 <div class="card-img album-hot-img-5">
                   <div class="card-overlay">
                   <i class="far fa-play-circle"></i>
@@ -1332,7 +1348,7 @@
                   <a href="#" class="box-album-title">Radio Hơn Cả Yêu</a>
                 </div>
               </div>
-              <div class="box-album">
+              <div class="box-album special">
                 <div class="card-img featured-radio-img-5">
                   <div class="card-overlay">
                   <i class="far fa-play-circle"></i>
@@ -1394,7 +1410,7 @@
                   <a href="#" class="box-album-title">US-UK Nhạc EDM Nổi Bật 2020</a>
                 </div>
               </div>
-              <div class="box-album">
+              <div class="box-album special">
                 <div class="card-img us-uk-img-5">
                   <div class="card-overlay">
                   <i class="far fa-play-circle"></i>
@@ -1456,7 +1472,7 @@
                   <a href="#" class="box-album-title">K-Pop HITS!</a>
                 </div>
               </div>
-              <div class="box-album">
+              <div class="box-album special">
                 <div class="card-img kpop-img-5">
                   <div class="card-overlay">
                   <i class="far fa-play-circle"></i>
@@ -1518,7 +1534,7 @@
                   <a href="#" class="box-album-title">Những Bài Hát Nhạc Hoa Gây Nghiện</a>
                 </div>
               </div>
-              <div class="box-album">
+              <div class="box-album special">
                 <div class="card-img cpop-img-5">
                   <div class="card-overlay">
                   <i class="far fa-play-circle"></i>

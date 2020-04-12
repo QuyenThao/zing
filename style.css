@@ -1,10 +1,12 @@
-/*Nav*/
+/*header*/
 body {  
   margin: 0 240px 0 240px;
   font-family: 'Roboto', sans-serif;  
   font-size: 14px;
 }
-
+ul {
+  list-style-type: none;
+}
 a, body {
     color: #32323d;
 }
@@ -18,6 +20,10 @@ a, body {
   top: 0;
   width: 100%;
   z-index: 2;
+  display: flex;
+}
+.top-bar {
+  width: 100%;
 }
 
 .top-bar-inner {
@@ -29,26 +35,27 @@ a, body {
     left: 0px;
 }
 
-ul {
+ul.z-nav {
     list-style-type: none;
     display: flex;
     font-size: 14px;
     font-weight: 500;
 }
 
-ul li {
+ul.z-nav li {
     text-transform: uppercase;
     margin-right: 15px;
     position: relative;
 }
 
-ul li a.nav-link {
+ul.z-nav li a.nav-link {
 	display: block;
   padding-bottom: 15px;
 }
 
-ul li a.nav-link:hover {
+ul.z-nav li a.nav-link:hover {
   border-bottom: 2px solid #65509e;
+  position: relative;
 }
 
 table tr {
@@ -89,7 +96,7 @@ a:hover {
   padding-top: 10px;
 }
 
-ul li table {
+ul.z-nav li table {
 	display: none;
 	position: absolute;
 	background-color: #fff;
@@ -97,33 +104,33 @@ ul li table {
   padding: 15px 0px;
 }
 
-ul li:hover table {
+ul.z-nav li:hover table {
 	display: block;
   transition: transform all .3s;
 }
 
-ul li table tr {
+ul.z-nav li table tr {
 	text-align: left;
 }
 
-ul li table tr th {
+ul.z-nav li table tr th {
 	text-transform: uppercase;
 	white-space: nowrap;
 	padding: 12px 30px;
 }
 
-ul li table tr td {
+ul.z-nav li table tr td {
   padding: 12px 15px;
   font-weight: 400;
 }
 
-ul li table tr td a{
+ul.z-nav li table tr td a{
 	padding: 5px;
 	white-space: nowrap;
 	transition: transform all .3s;
 }
 
-ul li table tr td:hover {
+ul.z-nav li table tr td:hover {
 	color: #65509e !important;
 	background-color: #d7d7db;
 }
@@ -131,7 +138,72 @@ ul li table tr td:hover {
 .carousel {
   margin-top: 60px;
 }
-
+/*Nav*/
+nav {
+  top: 0;
+  width: 100%;
+  height: 80px;
+  background: #ffffff;
+  z-index: 100;
+  position: fixed;
+  display: none;
+}
+nav img {
+  width: 100px;
+  height: 32px;
+  position: absolute;
+  top: 17px;
+  left: 12%;
+}
+nav ul {
+  margin-right: 25px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 15px;
+}
+nav ul li a {
+  position: relative;
+  color: #32323d;
+  font-size: 14px;
+  padding: 5px 0;
+  text-transform: uppercase;
+  list-style-type: none;
+  margin-bottom: 3px;
+}
+nav ul li a::before {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 100%;
+  background: #65509e;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform .4s linear;
+}
+nav ul li a:hover:before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+label {
+  width: 100%;
+}
+label #btn,
+label #cancel {
+  color: #32323d;
+  font-size: 30px;
+  float: right;
+  margin-right: 40px;
+  line-height: 80px;
+  cursor: pointer;
+  display: none;
+}
+#check {
+  display: none;
+}
 /*Login Footer */
 .login-footer {
   display: flex;
@@ -597,6 +669,7 @@ ul li table tr td:hover {
 
 .row-newsong {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .col {
@@ -891,7 +964,7 @@ ul li table tr td:hover {
 .category-row {
 	padding: 0 10px;
 	margin-right: 10px;
-	display: flex;
+  display: flex;
 }
 .topic-cards {
 	height: 107px;
@@ -934,6 +1007,7 @@ ul li table tr td:hover {
 
 .mv-hot {
   display: flex;
+  flex-wrap: wrap;
 }
 .top-mv-hot {
     width: 600px;
@@ -951,6 +1025,7 @@ ul li table tr td:hover {
 
 .mv-hot-img img {
     border-radius: 2px;
+    object-fit: cover;
     transition: transform 0.5s linear;
 }
 
@@ -1086,8 +1161,9 @@ ul li table tr td:hover {
   padding: 20px;
   margin-bottom: 15px;
 	display: flex;
-	flex-direction: row;
-  box-shadow: 0px 0px 20px 0px #82d7e047;
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-shadow: 0px 0px 10px 0px #82d7e047;
 }
 
 .mix-zing-image {
@@ -1150,6 +1226,7 @@ ul li table tr td:hover {
 .mix-zing-list {
   position: relative;
   display: flex;
+  flex-wrap: wrap;
   border-left: 1px solid rgba(227,227,227,.6);
   left: 180px;
 }
@@ -1243,3 +1320,151 @@ ul li table tr td:hover {
 .footer-items a:hover {
   color: #65509e;
 }
+
+@media screen and (max-width: 1118px) {
+  nav img {
+    left: 8%;
+  }
+}
+@media screen and (max-width: 944px) {
+  nav img {
+    left: 6%;
+    top: 20px;
+  }
+}
+@media screen and (max-width: 860px) {
+  body {
+    margin: 0 10px;
+  }
+
+  .header {
+    display: none;
+  }
+
+  nav {
+    display: block;
+  }
+
+  .carousel {
+    margin-top: 80px;
+  }
+
+  label {
+    margin-bottom: -10px;
+  }
+
+  label #btn {
+    display: block;
+  }
+
+  nav ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav ul li {
+    margin: 50px 0 0px;
+    padding-bottom: 25px;
+    line-height: 30px;
+    border-bottom: 1px solid rgba(227,227,227,.6);
+  }
+  
+  nav ul li a {
+    font-size: 18px;
+  }
+  
+  #check:checked ~ ul {
+    left: -15%;
+  }
+
+  #check:checked ~ label #btn {
+    display: none;
+  }
+
+  #check:checked ~ label #cancel {
+    display: block;
+  }
+
+  .login-footer {
+    display: none;
+  }
+
+  .recent-listen {
+    margin: 20px 15px;
+  }
+
+  .box-album {
+    position: relative;
+    margin: 0 20px 0 0;
+  }
+
+  .column-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .special {
+    display: none;
+  }
+
+  .zingchart .zingchart-week .row-zingchart {
+    display: none;
+  }
+
+  .zingchart .zingchart-week .row {
+    justify-content: center;
+  }
+
+  .category-row {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .topic-cards {
+    margin: 20px 20px 0 0;
+  }
+
+  .mv-hot-card {
+    margin-top: 20px;
+  }
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
