@@ -13,16 +13,15 @@
     <link rel="stylesheet" type="text/css" href="./style.css" media="screen">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/ee849e51b4.js" crossorigin="anonymous"></script>
-<body><!--
+<body>
   <header class="header">
-    <input type="checkbox" id="check">
     <div class="top-bar">
       <div class="top-bar-inner">
         <a href="index.html" class="z-logo">Zing mp3</a>
         <div class="menu-bar">
           <div class="menu-bar-inner">
             <ul class="z-nav">
-              <li><a class="nav-link" href="#">#Zingchart</a>
+              <li><a class="nav-link" href="#zingchart">#Zingchart</a>
               <table class="table-content">
                 <tr>
                 <th><a href="#">realtime</a></th>
@@ -44,8 +43,8 @@
                 </tr>
               </table>
               </li>
-              <li><a class="nav-link" href="#">Mới Phát Hành</a></li>
-              <li><a class="nav-link" href="#">Top 100</a>
+              <li><a class="nav-link" href="#top-newsong">Mới Phát Hành</a></li>
+              <li><a class="nav-link" href="#top-100">Top 100</a>
               <table class="table-content">
                 <tr>
                   <th><a href="#">việt nam</a></th>
@@ -96,7 +95,7 @@
                   <td><a href="#">Nhạc Cụ Khác</a></td>
                 </tr>
               </table></li>
-              <li><a class="nav-link" href="#">Chủ đề</a>
+              <li><a class="nav-link" href="#concept">Chủ đề</a>
               <table class="table-content">
                 <tr>
                   <th><a href="#">đề xuất</a></th>
@@ -141,7 +140,7 @@
                   <td><a href="#">Du Lịch</a></td>
                 </tr>
               </table></li>
-              <li><a class="nav-link" href="#">Nhạc Cá Nhân</a></li>
+              <li><a class="nav-link" href="#mix-zing-choice">Nhạc Cá Nhân</a></li>
             </ul>
           </div>
         </div>
@@ -158,20 +157,32 @@
         </div>
       </div>
     </div>
-  </header>-->
+  </header>
     <nav>
       <input type="checkbox" id="check">
       <label for="check">
         <i class="fas fa-bars" id="btn"></i>
         <i class="fas fa-times" id="cancel"></i>
+        <i class="search icon" id="search"></i>
       </label>
-      <a href="#"><img src="./image/logo.png" alt=""></a>
+      <a href="index.html"><img src="./image/logo.png" alt=""></a>
       <ul>
-        <li><a href="#">#Zingchart</a></li>
-        <li><a href="#">Mới Phát Hành</a></li>
-        <li><a href="#">Top 100</a></li>
-        <li><a href="#">Chủ Đề</a></li>
-        <li><a href="#">Nhạc Cá Nhân</a></li>
+        <li>
+          <div class="user-profile">
+            <a href="#"><i class="fas fa-user-circle fa"></i></a>
+            <div class="login">
+              <span class="login-btn">Đăng Nhập</span>
+              <span class="vip">Nâng cấp Vip</span>
+            </div>
+          </div>
+        </li>
+        <li><a href="index.html" class="menu-list"><i class="fas fa-home"></i>Trang Chủ</a></li>
+        <li><a href="#zingchart" class="menu-list"><i class="fas fa-chart-line"></i>#Zingchart</a></li>
+        <li><a href="#top-100" class="menu-list"><i class="fas fa-chart-bar"></i>Top 100</a></li>
+        <li><a href="#concept" class="menu-list"><i class="fas fa-music"></i>Chủ Đề</a></li>
+        <li><a href="#top-5-mv-hot" class="menu-list"><i class="fab fa-youtube"></i>MV</a></li>
+        <li><a href="#album-hot" class="menu-list"><i class="fas fa-compact-disc"></i>Album</a></li>
+        <li><a href="#mix-zing-choice" class="menu-list"><i class="fas fa-headphones-alt"></i>Nhạc Cá Nhân</a></li>
       </ul>
     </nav>
     <main class="main-body">
@@ -214,7 +225,7 @@
         <span class="content">Hãy đăng nhập để khám phá thêm nhiều bài hát dành riêng cho bạn</span>
         <a href="#" class="login-button">Đăng Nhập</a>
       </section>
-      <section class="recent-listen">
+      <section class="recent-listen" id="concept">
         <div class="container">
           <div class="row">
             <div class="column-1">
@@ -400,7 +411,7 @@
           </div>
         </div>
       </section>
-      <section class="zingchart">
+      <section class="zingchart" id="zingchart">
         <div class="zingchart-week">
           <div class="row row-zingchart">
             <img src="/image/zingchart.png" alt="" class="zingchart-img">
@@ -639,7 +650,7 @@
           </div>
         </div>
       </section>
-      <section class="top-100">
+      <section class="top-100" id="top-100">
           <div class="container">
             <div class="row">
               <div class="column-1">
@@ -701,7 +712,7 @@
             </div>
           </div>
       </section>
-      <section class="top-newsong">
+      <section class="top-newsong" id="top-newsong">
         <div class="row-1">
           <div class="box-title">Mới Phát Hành</div>
         </div>
@@ -1233,7 +1244,7 @@
           </div>
         </div>
       </section>
-      <section class="album-hot">
+      <section class="album-hot" id="album-hot">
         <div class="container">
           <div class="row">
             <div class="column-1">
@@ -1659,7 +1670,7 @@
           </a>
         </div>
       </section>
-      <section class="top-5-mv-hot">
+      <section class="top-5-mv-hot" id="top-5-mv-hot">
         <div class="box-title">MV Hot</div>
         <div class="mv-hot">
           <div class="top-mv-hot">
@@ -1757,7 +1768,7 @@
           </div>
         </div>   
       </section>
-      <section class="mix-zing-choice">
+      <section class="mix-zing-choice" id="mix-zing-choice">
         <div class="box-title">Mix Zing Choice</div>
         <div class="mix-zing">
           <div class="mix-zing-image">

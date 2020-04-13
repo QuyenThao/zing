@@ -86,7 +86,7 @@ a:hover {
 }
 
 .fa-user-circle {
-  color: #cad0dc;
+  color: #cad0dc !important;
   margin-right: 5px;
   font-size: 40px;
 }
@@ -184,13 +184,62 @@ nav ul li a::before {
   transform-origin: right;
   transition: transform .4s linear;
 }
+
 nav ul li a:hover:before {
   transform: scaleX(1);
   transform-origin: left;
 }
+
+nav ul li .user-profile a i {
+  font-size: 50px;
+  color: #cad0dc;
+}
+
+nav ul li .user-profile div.login {
+  display: flex;
+  flex-direction: column;
+}
+
+nav ul li .user-profile span.login-btn {
+  margin: 10px 0 5px 20px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+nav ul li .user-profile span.vip {
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: 20px;
+  padding: 4px 12px;
+  background-color: #fdd100;
+  border-radius: 5px;
+}
+
+nav ul li .user-profile span.vip:hover {
+  background-color: #6e55b4;
+  color: #fcfcfc;
+  border-color: #fcfcfc;  
+}
+
+i.fas, i.fab {
+  margin-right: 10px;
+  color: #65509e;
+}
+
 label {
   width: 100%;
 }
+
+label #search {
+  color: #32323d;
+  font-weight: 500;
+  font-size: 23px;
+  float: right;
+  margin-right: 25px;
+  line-height: 80px;
+  cursor: pointer;
+}
+
 label #btn,
 label #cancel {
   color: #32323d;
@@ -201,9 +250,11 @@ label #cancel {
   cursor: pointer;
   display: none;
 }
+
 #check {
   display: none;
 }
+
 /*Login Footer */
 .login-footer {
   display: flex;
@@ -468,7 +519,7 @@ label #cancel {
   font-size: 10px;
   align-items: center;
   margin: 2px 2px 2px 4px;
-  color: #fff;
+  color: #fff !important;
 }
 
 .spotlight-bag span {
@@ -1311,10 +1362,15 @@ label #cancel {
   position: relative;
 }
 
+.footer ul {
+  display: flex;
+}
+
 .footer-items a {
   color: #888;  
   font-size: 12px;
   text-transform: capitalize;
+  margin-right: 25px;
 }
 
 .footer-items a:hover {
@@ -1363,7 +1419,6 @@ label #cancel {
     height: 100vh;
     background: #fff;
     left: -100%;
-    text-align: center;
     transition: all .5s;
     z-index: 100;
     display: flex;
@@ -1371,10 +1426,9 @@ label #cancel {
   }
 
   nav ul li {
-    margin: 50px 0 0px;
+    margin: 15px 0 0px;
     padding-bottom: 25px;
     line-height: 30px;
-    border-bottom: 1px solid rgba(227,227,227,.6);
   }
   
   nav ul li a {
@@ -1382,7 +1436,7 @@ label #cancel {
   }
   
   #check:checked ~ ul {
-    left: -15%;
+    left: 0;
   }
 
   #check:checked ~ label #btn {
